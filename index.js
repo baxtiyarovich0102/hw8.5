@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/hello', (req, res) => {
-  res.send('Hello, World!');
+  res.send('Hello, Worlds!');
 });
 
 app.post('/sum', (req, res) => {
